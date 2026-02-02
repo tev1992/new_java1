@@ -1,11 +1,14 @@
 package org.example.product;
 
+import java.util.List;
+
 public class Product {
-    public int ID;
-    public String name;
-    public double price;
-    public int count;
-    public String currency;
+    private int ID;
+    private String name;
+    private double price;
+    private int count;
+    private String currency;
+
 
 
     public Product(String name, double price, int count) {
@@ -14,6 +17,26 @@ public class Product {
         this.price = price;
         this.count = count;
         this.currency = "RUB";
+    }
+
+    public int getID() {
+        return ID++;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice(){
+        return price;
+    }
+
+    public int getCount(){
+        return count;
+    }
+
+    public String getCurrency(){
+        return currency;
     }
 
     public void displayInfo() {
@@ -45,4 +68,5 @@ public class Product {
         }
         displayInfo();
     }
+
 }

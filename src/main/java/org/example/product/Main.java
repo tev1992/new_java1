@@ -10,6 +10,13 @@ public class Main {
         apple.applyDiscount(0);
         apple.applyDiscount(110);
         apple.applyDiscount(-10);
+        Product milk = new Product("Молоко", 100, 20);
+
+        ShoppingCard card = new ShoppingCard();
+        card.addProduct(apple);
+        card.addProduct(milk);
+        card.showCard();
+
 
 
     }
