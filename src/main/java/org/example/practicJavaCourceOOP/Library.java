@@ -1,4 +1,4 @@
-package org.example.practicJavaCource;
+package org.example.practicJavaCourceOOP;
 
 import java.util.ArrayList;
 import java.util.List;

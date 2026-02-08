@@ -1,4 +1,4 @@
-package org.example.practicJavaCource;
+package org.example.practicJavaCourceOOP;
 
 public class main {
 
@@ -10,6 +10,7 @@ public class main {
     user.displayInfo();
     user.rentBook(book1);
     library.addBook(book1);
+
 
     }
 }

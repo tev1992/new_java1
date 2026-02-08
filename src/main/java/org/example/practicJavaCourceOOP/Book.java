@@ -1,4 +1,4 @@
-package org.example.practicJavaCource;
+package org.example.practicJavaCourceOOP;
 
 // =====  БАЗОВЫЙ КЛАСС ДЛЯ ПРЕДСТАВЛЕНИЯ КНИГИ Реализует инкапсуляцию - все поля приватные =====
 
